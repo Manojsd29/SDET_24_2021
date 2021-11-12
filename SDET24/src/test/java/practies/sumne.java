@@ -9,4 +9,10 @@ public class sumne {
 		System.out.println("sumne test madtirodu");
 	}
 	
+	@Test
+	public void sumneCreateaTest2() {
+		System.out.println("sumne Maam heludru anta test madtirodu");
+	}
+	
+	
 }
