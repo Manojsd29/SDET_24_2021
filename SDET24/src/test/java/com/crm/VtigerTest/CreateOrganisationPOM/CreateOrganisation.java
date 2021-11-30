@@ -54,6 +54,8 @@ public class CreateOrganisation extends BaseClass {
 	public void sumne() {
 		Reporter.log("retry analyzer", true);
 		Assert.fail();
+		driver.quit();
 	}
+	
 
 }
