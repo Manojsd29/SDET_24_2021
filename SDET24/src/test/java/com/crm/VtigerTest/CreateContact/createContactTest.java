@@ -34,7 +34,7 @@ public class createContactTest {
 		String organisationName = eLib.getExcelValue("Sheet1", 0, 0) + "_" +ranWeb;
 		String FirstName = eLib.getExcelValue("Sheet2", 0, 0) + "_" +ranWeb;
 		String LastName = eLib.getExcelValue("Sheet2", 0, 1) + "_" +ranWeb;
-
+		System.out.println("haiaaaaaaaaaaaaaaaaaaaaaaaa");
 		WebDriverManager.chromedriver().setup();
 		WebDriverManager.firefoxdriver().setup();
 		WebDriver driver = null;
